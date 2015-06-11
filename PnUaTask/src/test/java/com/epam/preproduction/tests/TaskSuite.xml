@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTask">
+    <test name="AssertEqualsShortAndFullDescription">
+        <classes>
+            <class name="com.epam.preproduction.tests.AssertEqualsShortAndFullDescription" />
+        </classes>
+    </test>
+
+    <test name="ComparsionOfMicrowave">
+        <classes>
+            <class name="com.epam.preproduction.tests.ComparsionOfMicrowave" />
+        </classes>
+    </test>
+
+    <test name="VerifyBreadmakersManufacturers">
+        <classes>
+            <class name="com.epam.preproduction.tests.VerifyBreadmakersManufacturers" />
+        </classes>
+    </test>
+
+    <test name="VerifyPriceFilter">
+        <classes>
+            <class name="com.epam.preproduction.tests.VerifyPriceFilter" />
+        </classes>
+    </test>
+
+    <test name="VerifySortingByNameAndPrice">
+        <classes>
+            <class name="com.epam.preproduction.tests.VerifySortingByNameAndPrice" />
+        </classes>
+    </test>
+    <test name="VerifyWeightRegulationFilter">
+        <classes>
+            <class name="com.epam.preproduction.tests.VerifyWeightRegulationFilter" />
+        </classes>
+    </test>
+
+
+
+</suite>
