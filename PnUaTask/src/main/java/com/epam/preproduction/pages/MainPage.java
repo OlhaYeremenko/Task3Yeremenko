@@ -7,15 +7,16 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * Created by Olha_Yeremenko on 05-Jun-15.
+ * @author Olha_Yeremenko
+ * @since 05-Jun-15
  */
 public class MainPage extends AbstractPage
 {
 
-    public static final String FRIDGE_LINK = "//*[@id='page-content-wrap']//a[27]";
-    public static final String BREADMAKER_LINK = ".//*[@id='page-content-wrap']//a[33]";
-    public static final String CONDITIONER_LINK = ".//*[@id='page-content-wrap']//a[25]";
-    public static final String MICROWAVE_LINK = ".//*[@id='page-content-wrap']//a[30]";
+    private static final String FRIDGE_LINK = "//*[@id='page-content-wrap']//a[27]";
+    private static final String BREADMAKER_LINK = ".//*[@id='page-content-wrap']//a[33]";
+    private static final String CONDITIONER_LINK = ".//*[@id='page-content-wrap']//a[25]";
+    private static final String MICROWAVE_LINK = ".//*[@id='page-content-wrap']//a[30]";
 
     @FindBy(xpath = FRIDGE_LINK)
     private WebElement fridgeLink;

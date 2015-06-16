@@ -8,13 +8,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Created by Olha_Yeremenko on 05-Jun-15.
+ * @author Olha_Yeremenko
+ * @since 05-Jun-15
  */
 public class VerifyBreadmakersManufacturers extends SetTestSetting
 {
 
 
-    VerifyBreadmakerManufacturersSteps verifyBreadmakerManufacturersSteps;
+    private  VerifyBreadmakerManufacturersSteps verifyBreadmakerManufacturersSteps;
 
     @BeforeClass
     public void beforeClass()

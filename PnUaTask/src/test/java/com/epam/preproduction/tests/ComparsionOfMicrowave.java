@@ -7,13 +7,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Created by Olha_Yeremenko on 05-Jun-15.
+ * @author Olha_Yeremenko
+ * @since 05-Jun-15
  */
 public class ComparsionOfMicrowave extends SetTestSetting
 {
 
-	VerifySortingByNameAndPriceSteps sortSteps;
-	ComparisonOfMicrowaveSteps comparaiontSteps;
+    private VerifySortingByNameAndPriceSteps sortSteps;
+    private ComparisonOfMicrowaveSteps comparaiontSteps;
 
 	@BeforeClass
 	public void beforeClass()

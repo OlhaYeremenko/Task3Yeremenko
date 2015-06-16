@@ -12,15 +12,16 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * Created by Olha_Yeremenko on 05-Jun-15.
+ * @author Olha_Yeremenko
+ * @since 05-Jun-15
  */
 public class ProductInfoPage extends AbstractPage
 {
 
-    public static final String PARAMETERS_LIST = "//*[@class='val']";
-    public static final String LINK_TO_COMPARSION = "//*[@class='head-compare-link']";
-    public static final String LINK_TO_CATALOG = "//*[@id='page-breadcrumbs']/a[3]";
-    public List<String> parametersList;
+    private static final String PARAMETERS_LIST = "//*[@class='val']";
+    private static final String LINK_TO_COMPARSION = "//*[@class='head-compare-link']";
+    private static final String LINK_TO_CATALOG = "//*[@id='page-breadcrumbs']/a[3]";
+    private List<String> parametersList;
 
     @FindBy(xpath = PARAMETERS_LIST)
     private List<WebElement> parametersWebList;

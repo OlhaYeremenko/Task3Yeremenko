@@ -9,14 +9,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * Created by olia on 06.06.2015.
+ * @author Olha_Yeremenko
+ * @since 05-Jun-15
  */
 public class ProductCatalog extends AbstractPage {
 
-	public static final String PRCIE_SORT_LINK = "//*[contains(@class,'column width-75')] //*[@class='links-bar']//a[1]";
-	public static final String PRODUCT_NAME_SORT_LINK = "//*[contains(@class,'column width-75')] //*[@class='links-bar']//a[1]";
-	public static final String MAIN_PAGE_LINK = " //*[@id='page-breadcrumbs']/a";
-	public static final String LINK_TO_COMPARSION = "//*[@class='item'][1]//*[@class='compare_redirect_link']//a";
+    private static final String PRCIE_SORT_LINK = "//*[contains(@class,'column width-75')] //*[@class='links-bar']//a[1]";
+    private static final String PRODUCT_NAME_SORT_LINK = "//*[contains(@class,'column width-75')] //*[@class='links-bar']//a[1]";
+    private static final String MAIN_PAGE_LINK = " //*[@id='page-breadcrumbs']/a";
+    private static final String LINK_TO_COMPARSION = "//*[@class='item'][1]//*[@class='compare_redirect_link']//a";
 
 	@FindBy(xpath = PRCIE_SORT_LINK)
 	private WebElement priceSortLink;

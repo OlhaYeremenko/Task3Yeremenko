@@ -7,13 +7,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Created by Olha_Yeremenko on 05-Jun-15.
+ * @author Olha_Yeremenko
+ * @since 05-Jun-15
  */
 public class VerifyWeightRegulationFilter extends SetTestSetting
 {
 
 
-    VerifyWeightRegulationFilterSteps verifyWeightRegulationFilterSteps;
+    private  VerifyWeightRegulationFilterSteps verifyWeightRegulationFilterSteps;
 
     @BeforeClass
     public void beforeClass()

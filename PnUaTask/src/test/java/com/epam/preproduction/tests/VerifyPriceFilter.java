@@ -8,13 +8,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Created by Olha_Yeremenko on 05-Jun-15.
+ * @author Olha_Yeremenko
+ * @since 05-Jun-15
  */
 public class VerifyPriceFilter extends SetTestSetting
 {
 
-	VerifySortingByNameAndPriceSteps sortSteps;
-	VerifyPriceFilterSteps verifyPriceFilterSteps;
+    private VerifySortingByNameAndPriceSteps sortSteps;
+    private VerifyPriceFilterSteps verifyPriceFilterSteps;
 
 	@BeforeClass
 	public void beforeClass()
